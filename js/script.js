@@ -8,7 +8,7 @@ $(document).ready(function() {
         arrows:true,
         dots:true,
         adaptiveHeight:true,
-        slidesToShow:3,
+        slidesToShow:2,
         slidesToScroll:1,
         speed:500,
         easing:'ease',

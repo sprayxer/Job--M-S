@@ -649,14 +649,8 @@ body {
     overflow: hidden;
 }
 
-goods-action{
-    font-size: 1.125rem;
-    line-height: 1.22;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    gap: 20px;
-    flex-wrap: wrap;
+.goods-action{
+    
 }
 
 .footer{
@@ -929,6 +923,8 @@ goods-action{
 }
 .goods-box{
     margin: auto 0;
+    *display: flex;
+    flex-direction: column;
 }
 
 .slick-list{
@@ -988,6 +984,10 @@ goods-action{
 .goods-action .slick-arrow.slick-disabled{
     opacity: 0.2;
 }
+
+
+
+
 
 
 
