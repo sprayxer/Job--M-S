@@ -387,7 +387,7 @@ textarea {
         url('../fonts/pfdintextcondpro-bold.woff') format('woff');
 }
 
-html {
+html{
     box-sizing: border-box;
 }
 
@@ -395,7 +395,7 @@ html {
     box-sizing: inherit;
 }
 
-body {
+body{
     font-family: 'PFDinTextCondPro';
     font-style: normal;
     font-size: 1rem;
@@ -404,7 +404,7 @@ body {
     color: #5A1404;
 }
 
-.header {
+.header{
     background-color: #fff;
     height: 80px;
     width: 100%;
@@ -427,19 +427,19 @@ body {
     display: none;
 }
 
-.menu-list {
+.menu-list{
     display: flex;
 }
 
-.menu-item {
+.menu-item{
     margin-right: 80px;
 }
 
-.menu-item:last-child {
+.menu-item:last-child{
     margin-right: 0;
 }
 
-.menu-link {
+.menu-link{
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
@@ -447,22 +447,22 @@ body {
     line-height: 33px;
 }
 
-.menu-link:hover, .menu-link:focus, .menu-link:active {
+.menu-link:hover, .menu-link:focus, .menu-link:active{
     text-decoration: underline;
 }
 
-.main {
+.main{
     text-align: center;
     margin: 0 auto 100px auto;
 }
 
-.login {
+.login{
     display: flex;
     align-items: center;
     gap: 17px;
 }
 
-.button-door {
+.button-door{
     padding: 10px 42px;
     background-color: #FFCD00;
     border: 0;
@@ -474,7 +474,7 @@ body {
     color: #5A1404;
 }
 
-.button-door:hover, .button-door:focus, .button-door:active {
+.button-door:hover, .button-door:focus, .button-door:active{
     background-color: #e1b608;
     text-decoration: underline;
 }
@@ -647,10 +647,6 @@ body {
     border: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.goods-action{
-    
 }
 
 .footer{
@@ -923,8 +919,6 @@ body {
 }
 .goods-box{
     margin: auto 0;
-    *display: flex;
-    flex-direction: column;
 }
 
 .slick-list{
